@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Вкус Перекус</title>
+    <meta charset="utf-8">
+       <style>
+       table {
+        width: 80%;
+       }
+       table,th,td {
+            border: 2px solid black;
+            border-collapse: collapse "200"
+        }
+        caption { 
+            font-size: 20pt;
+        }
+    </style>
+</head>
+<body>
+      <table>
+        <caption>Меню</caption>
+        <tbody>
+           <tr>
+               <th>№</th>
+               <th>Название</th>
+               <th>Состав</th>
+               <th>Цена</th>
+           </tr>
+           <tr>
+               <td>1</td>
+               <td>Чоризо фреш</td>
+               <td>Фирменный томатный соус, моцарелла, острая чоризо, сладкий перец</td>
+               <td>289 р</td>
+           </tr>
+           <tr>
+               <td>2</td>
+               <td>Мясной Микс</td>
+               <td>Буженина, острая чоризо, пикантная пепперони, бекон, моцарелла, фирменный томатный соус</td>
+               <td>469 р</td>
+           </tr>
+           <tr>
+               <td>3</td>
+               <td>Сырная</td>
+               <td>Моцарелла, сыры чеддер и пармезан, фирменный соус альфредо</td>
+               <td>289 р</td>
+           </tr>
+           <tr>
+               <td>4</td>
+               <td>Ветчина и сыр</td>
+               <td>Ветчина, моцарелла, фирменный соус альфредо</td>
+               <td>309 р</td>
+           </tr>
+        </tbody>
+    </table>
+       <head>
+    
+</body>
+<body>
+
+</br> 
+    <form>
+        <fieldset>
+            <legend>Ваши данные для оформления заказа</legend>
+            <ol>
+                <li> <label for="FIO">Ваше Имя</label></li>
+             <input type="text" id="name" placeholder="Имя" required/><br/><br/>
+             <li>  <label for="el_ya">Электронная почта</label></li>
+            <input type="email" id="el_ya" placeholder="---@mail.com" required/><br/><br/>
+            <li> <label for="phone_number">Ваш номер телефона</label></li>
+            <input type="tel" id="phone_number"placeholder="+7 ( ) —- —-" required/><br/><br/>
+            <li>  <label for="address">Ваш адрес доставки</label></li>
+            <input type="" id="address" placeholder="Адрес" required/><br/><br/>
+            <li> <label for="name">Название блюда</label></li>
+            <input type="" id="name" placeholder="Название блюда" required/><br/><br/>
+            <li>  <label for="address">Способ получения доставки</label></li>
+            
+<input type="radio" name="IIWW" value="Доставка курьером"/>Доставка курьером
+            <input type="radio" name="IIWW" value="Самовывоз"/>Самовывоз<br/><br/>
+            <li> <input type="" id="name" placeholder="Введите промокод" required/><br/><br/></li>
+            <input type="button" name="send_d" value="Применить"/><br/><br/>
+            <input type="button" name="send_d" value="Оформить заказ"/>
+            <input type="reset" name="clr" value="Очистить форму"/>
+        </ol>
+        </fieldset>
+    </form>
+</html>
